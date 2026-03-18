@@ -1,2 +1,33 @@
-# Prediction-rendement-Mil-Sorgho-Tchad
-Mon premier projet en ML sur la prédiction des rendements de Mil/Sorgho au Tchad
+# Prédiction Rendements Mil/Sorgho - Tchad
+
+## 🎯 Objectif
+Système de prédiction des rendements du mil et sorgho au Tchad 
+utilisant l'imagerie satellite Sentinel-2 et le machine learning.
+
+## 📊 Pourquoi ce projet ?
+- 80% de la production céréalière tchadienne
+- 165 000 tonnes perdues annuellement faute de planification
+- Solution low-cost pour agriculteurs et coopératives
+
+## 🗺️ Zone pilote
+Région de Mandoul, Tchad (partenariat en discussion avec [nom coopérative])
+
+## 🛠️ Stack technique
+- Google Earth Engine (télédétection)
+- Python (scikit-learn, pandas)
+- TensorFlow Lite (mobile)
+- Android (Flutter)
+
+## 📈 Status
+- [x] Extraction données satellites test
+- [ ] Collecte données (en cours)
+- [ ] Modèle baseline
+- [ ] Application mobile
+
+## 🤝 Partenaires recherchés
+- Coopératives agricoles (données terrain)
+- Agronomes (validation scientifique)
+- Développeurs mobile (collaboration)
+
+## 📧 Contact
+[mbaibenjsos@gmail.com]
