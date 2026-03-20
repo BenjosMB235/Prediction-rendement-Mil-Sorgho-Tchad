@@ -17,7 +17,7 @@ Région de Mandoul, Tchad
 
 ## 🛠️ Stack technique
 
-* Google Earth Engine (télédétection)
+* Google Colab + Copernicus DataSpace (télédétection)
 * Python (scikit-learn, pandas)
 * TensorFlow Lite (mobile)
 * Android (Java)
@@ -25,7 +25,7 @@ Région de Mandoul, Tchad
 ## 📈 Status
 
 * \[ ] Extraction données satellites test (En cours)
-* \[ ] Collecte données 
+* \[ ] Collecte données
 * \[ ] Modèle baseline
 * \[ ] Application mobile
 
