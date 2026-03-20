@@ -10,7 +10,7 @@ utilisant l'imagerie satellite Sentinel-2 et le machine learning.
 - Solution low-cost pour agriculteurs et coopératives
 
 ## 🗺️ Zone pilote
-Région de Mandoul, Tchad (partenariat en discussion avec [nom coopérative])
+Région de Mandoul, Tchad 
 
 ## 🛠️ Stack technique
 - Google Earth Engine (télédétection)
