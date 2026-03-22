@@ -24,7 +24,8 @@ Région de Mandoul, Tchad
 
 ## 📈 Status
 
-* \[ ] Extraction données satellites test (En cours)
+* \[x] Extraction NDVI Sentinel-2 (données partielles — octobre 2023)
+* \[ ] Extraction données complètes juillet-octobre (en cours)
 * \[ ] Collecte données
 * \[ ] Modèle baseline
 * \[ ] Application mobile

@@ -1,0 +1,52 @@
+date,ndvi,qualite
+2019-07-28,0.7217,VI produced with good quality
+2019-08-13,0.7531,VI produced with good quality
+2019-08-29,0.7363,"VI produced, but check other QA"
+2019-09-14,0.6776,"VI produced, but check other QA"
+2019-10-16,0.7289,VI produced with good quality
+2019-11-01,0.6923,VI produced with good quality
+2019-11-17,0.6012,VI produced with good quality
+2019-12-03,0.5303,VI produced with good quality
+2019-12-19,0.4228,VI produced with good quality
+2020-06-09,0.4468,"VI produced, but check other QA"
+2020-06-25,0.5075,VI produced with good quality
+2020-07-27,0.633,"VI produced, but check other QA"
+2020-08-28,0.6847,VI produced with good quality
+2020-09-29,0.6685,"VI produced, but check other QA"
+2020-10-15,0.7289,VI produced with good quality
+2020-10-31,0.624,VI produced with good quality
+2020-11-16,0.5677,VI produced with good quality
+2020-12-02,0.4834,VI produced with good quality
+2020-12-18,0.4382,VI produced with good quality
+2021-06-10,0.5947,VI produced with good quality
+2021-06-26,0.5604,VI produced with good quality
+2021-08-13,0.3661,"VI produced, but check other QA"
+2021-08-29,0.7421,VI produced with good quality
+2021-09-14,0.7553,VI produced with good quality
+2021-09-30,0.652,VI produced with good quality
+2021-10-16,0.642,VI produced with good quality
+2021-11-01,0.5341,VI produced with good quality
+2021-11-17,0.4499,VI produced with good quality
+2021-12-03,0.4168,VI produced with good quality
+2021-12-19,0.4014,VI produced with good quality
+2022-06-10,0.5525,"VI produced, but check other QA"
+2022-06-26,0.569,VI produced with good quality
+2022-08-29,0.6663,"VI produced, but check other QA"
+2022-09-30,0.6872,VI produced with good quality
+2022-10-16,0.6925,VI produced with good quality
+2022-11-01,0.6164,VI produced with good quality
+2022-11-17,0.5744,VI produced with good quality
+2022-12-03,0.4591,VI produced with good quality
+2022-12-19,0.3989,VI produced with good quality
+2023-06-10,0.5608,VI produced with good quality
+2023-06-26,0.6136,VI produced with good quality
+2023-07-12,0.6212,VI produced with good quality
+2023-07-28,0.6449,VI produced with good quality
+2023-08-13,0.6016,VI produced with good quality
+2023-08-29,0.6571,VI produced with good quality
+2023-09-30,0.7005,VI produced with good quality
+2023-10-16,0.6626,VI produced with good quality
+2023-11-01,0.6344,"VI produced, but check other QA"
+2023-11-17,0.5005,VI produced with good quality
+2023-12-03,0.4042,VI produced with good quality
+2023-12-19,0.4005,VI produced with good quality
