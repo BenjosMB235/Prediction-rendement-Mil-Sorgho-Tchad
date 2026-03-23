@@ -13,22 +13,25 @@ utilisant l'imagerie satellite Sentinel-2 et le machine learning.
 
 ## 🗺️ Zone pilote
 
-Région de Mandoul, Tchad
+3 régions Mandoul, Moyen-Chari et Logone Occidental, Tchad
 
 ## 🛠️ Stack technique
 
-* Google Colab + Copernicus DataSpace (télédétection)
-* Python (scikit-learn, pandas)
+* NASA MODIS MOD13Q1 (télédétection EVI)
+* Google Colab (traitement cloud)
+* Python (scikit-learn, pandas, numpy)
+* FAO FAOSTAT (données rendements)
 * TensorFlow Lite (mobile)
-* Android (Java)
+* Android natif Java
 
 ## 📈 Status
 
-* \[x] Extraction NDVI Sentinel-2 (données partielles — octobre 2023)
-* \[ ] Extraction données complètes juillet-octobre (en cours)
-* \[ ] Collecte données
-* \[ ] Modèle baseline
-* \[ ] Application mobile
+* \[x] Setup environnement (Colab + GitHub)
+* \[x] Extraction données satellites (MODIS EVI 2010-2024)
+* \[x] Feature engineering (7 features, 3 régions, 12 ans)
+* \[x] Dataset ML final (36 lignes prêtes)
+* \[ ] Modèle ML baseline (en cours)
+* \[ ] Application Android
 
 ## 🤝 Partenaires recherchés
 
