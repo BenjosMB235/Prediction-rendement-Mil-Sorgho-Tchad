@@ -32,7 +32,7 @@ utilisant l'imagerie satellite Sentinel-2 et le machine learning.
 * \[x] Dataset ML final (36 lignes prêtes)
 * \[x] Modèle ML baseline (V2 valide)
 * \[x] Features : EVI + Pluviométrie CHIRPS
-* \[ ] Application Android
+* \[x] Application Android (inférence TFLite offline)
 
 ## 🤝 Partenaires recherchés
 
