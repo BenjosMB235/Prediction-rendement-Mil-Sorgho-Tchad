@@ -30,7 +30,8 @@ utilisant l'imagerie satellite Sentinel-2 et le machine learning.
 * \[x] Extraction données satellites (MODIS EVI 2010-2024)
 * \[x] Feature engineering (7 features, 3 régions, 12 ans)
 * \[x] Dataset ML final (36 lignes prêtes)
-* \[x] Modèle ML baseline (V1 valide)
+* \[x] Modèle ML baseline (V2 valide)
+* \[x] Features : EVI + Pluviométrie CHIRPS
 * \[ ] Application Android
 
 ## 🤝 Partenaires recherchés
