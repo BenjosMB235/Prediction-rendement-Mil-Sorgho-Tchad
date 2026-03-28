@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:background="#1B5E20">
+
+    <!-- Icône -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="🌾"
+        android:textSize="72sp"
+        android:layout_marginBottom="24dp"/>
+
+    <!-- Titre -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="YieldPredictor"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- Sous-titre -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Prédiction des rendements agricoles au Tchad"
+        android:textSize="16sp"
+        android:textColor="#A5D6A7"
+        android:gravity="center"
+        android:layout_marginBottom="40dp"/>
+
+    <!-- Séparateur -->
+    <View
+        android:layout_width="60dp"
+        android:layout_height="2dp"
+        android:background="#4CAF50"
+        android:layout_marginBottom="40dp"/>
+
+    <!-- Texte introductif -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Le mil et le sorgho représentent 80% de la production céréalière tchadienne. Cet outil utilise l'intelligence artificielle et les données satellites pour prédire les rendements 2 à 4 semaines avant la récolte."
+        android:textSize="15sp"
+        android:textColor="#C8E6C9"
+        android:gravity="center"
+        android:lineSpacingMultiplier="1.5"
+        android:layout_marginBottom="24dp"/>
+
+    <!-- Stats -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginBottom="48dp">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="80%"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="production céréalière"
+                android:textSize="11sp"
+                android:textColor="#A5D6A7"
+                android:gravity="center"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="régions couvertes"
+                android:textSize="11sp"
+                android:textColor="#A5D6A7"
+                android:gravity="center"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="100%"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="hors connexion"
+                android:textSize="11sp"
+                android:textColor="#A5D6A7"
+                android:gravity="center"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <!-- Bouton -->
+    <Button
+        android:id="@+id/btnCommencer"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="COMMENCER"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:backgroundTint="#4CAF50"
+        android:textColor="#FFFFFF"/>
+
+</LinearLayout>

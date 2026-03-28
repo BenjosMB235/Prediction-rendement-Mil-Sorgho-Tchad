@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Titre -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nouvelle prédiction"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="24dp"/>
+
+        <!-- Région -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Région"
+            android:textSize="14sp"
+            android:textColor="#666666"/>
+
+        <Spinner
+            android:id="@+id/spinnerRegion"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- EVI max -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Indice de végétation max (0.0 — 1.0)"
+            android:textSize="14sp"
+            android:textColor="#666666"/>
+
+        <EditText
+            android:id="@+id/etEviMax"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:inputType="numberDecimal"
+            android:hint="ex: 0.55"
+            android:textSize="18sp"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- EVI moyen -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Indice de végétation moyen"
+            android:textSize="14sp"
+            android:textColor="#666666"/>
+
+        <EditText
+            android:id="@+id/etEviMean"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:inputType="numberDecimal"
+            android:hint="ex: 0.38"
+            android:textSize="18sp"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Pluie -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pluviométrie saison (mm)"
+            android:textSize="14sp"
+            android:textColor="#666666"/>
+
+        <EditText
+            android:id="@+id/etPluie"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:inputType="numberDecimal"
+            android:hint="ex: 850"
+            android:textSize="18sp"
+            android:layout_marginBottom="32dp"/>
+
+        <!-- Bouton -->
+        <Button
+            android:id="@+id/btnPredire"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="PRÉDIRE LE RENDEMENT"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:backgroundTint="#2E7D32"/>
+
+    </LinearLayout>
+</ScrollView>

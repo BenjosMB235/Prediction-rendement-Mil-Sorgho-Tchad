@@ -43,4 +43,6 @@ dependencies {
 
     implementation ("org.tensorflow:tensorflow-lite:2.13.0")
     implementation ("org.tensorflow:tensorflow-lite-support:0.4.4")
+    implementation ("androidx.room:room-runtime:2.6.1")
+    annotationProcessor ("androidx.room:room-compiler:2.6.1")
 }

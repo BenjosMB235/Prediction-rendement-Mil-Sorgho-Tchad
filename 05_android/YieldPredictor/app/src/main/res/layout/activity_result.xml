@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:padding="24dp">
+
+        <!-- Header vert -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:background="#1B5E20"
+            android:padding="24dp"
+            android:layout_marginBottom="24dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="🌾"
+                android:textSize="48sp"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="RÉSULTAT DE PRÉDICTION"
+                android:textSize="14sp"
+                android:textColor="#A5D6A7"
+                android:letterSpacing="0.1"
+                android:layout_marginBottom="16dp"/>
+
+            <!-- Valeur principale -->
+            <TextView
+                android:id="@+id/tvRendement"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0.00 t/ha"
+                android:textSize="48sp"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                android:layout_marginBottom="8dp"/>
+
+            <!-- Évaluation -->
+            <TextView
+                android:id="@+id/tvEvaluation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="BONNE RÉCOLTE"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#69F0AE"
+                android:layout_marginBottom="16dp"/>
+
+            <!-- Barre de progression -->
+            <ProgressBar
+                android:id="@+id/progressBar"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="match_parent"
+                android:layout_height="12dp"
+                android:max="100"
+                android:progress="70"
+                android:progressTint="#4CAF50"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="4dp">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Faible"
+                    android:textSize="11sp"
+                    android:textColor="#A5D6A7"/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Excellente"
+                    android:textSize="11sp"
+                    android:textColor="#A5D6A7"
+                    android:gravity="end"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!-- Détails -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DÉTAILS"
+            android:textSize="12sp"
+            android:textColor="#999999"
+            android:letterSpacing="0.1"
+            android:layout_marginBottom="12dp"/>
+
+        <!-- Carte région -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="#F5F5F5"
+            android:padding="16dp"
+            android:layout_marginBottom="8dp">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Région"
+                android:textColor="#666666"/>
+            <TextView
+                android:id="@+id/tvRegion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mandoul"
+                android:textStyle="bold"/>
+        </LinearLayout>
+
+        <!-- Carte EVI -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="#F5F5F5"
+            android:padding="16dp"
+            android:layout_marginBottom="8dp">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Végétation (EVI max)"
+                android:textColor="#666666"/>
+            <TextView
+                android:id="@+id/tvEvi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0.55"
+                android:textStyle="bold"/>
+        </LinearLayout>
+
+        <!-- Carte pluie -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="#F5F5F5"
+            android:padding="16dp"
+            android:layout_marginBottom="8dp">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Pluviométrie saison"
+                android:textColor="#666666"/>
+            <TextView
+                android:id="@+id/tvPluie"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="850 mm"
+                android:textStyle="bold"/>
+        </LinearLayout>
+
+        <!-- Carte date -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="#F5F5F5"
+            android:padding="16dp"
+            android:layout_marginBottom="32dp">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Date"
+                android:textColor="#666666"/>
+            <TextView
+                android:id="@+id/tvDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="--"
+                android:textStyle="bold"/>
+        </LinearLayout>
+
+        <!-- Moyenne historique -->
+        <TextView
+            android:id="@+id/tvComparaison"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Moyenne historique Mandoul : 0.68 t/ha"
+            android:textSize="14sp"
+            android:textColor="#666666"
+            android:gravity="center"
+            android:layout_marginBottom="32dp"/>
+
+        <!-- Boutons -->
+        <Button
+            android:id="@+id/btnSauvegarder"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="SAUVEGARDER"
+            android:textStyle="bold"
+            android:backgroundTint="#2E7D32"
+            android:layout_marginBottom="12dp"/>
+
+        <Button
+            android:id="@+id/btnNouvelle"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="NOUVELLE PRÉDICTION"
+            android:textStyle="bold"
+            android:backgroundTint="#455A64"/>
+
+    </LinearLayout>
+</ScrollView>
