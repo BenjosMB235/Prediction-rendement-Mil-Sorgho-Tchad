@@ -5,7 +5,8 @@
     android:orientation="vertical"
     android:gravity="center"
     android:padding="24dp"
-    android:background="#1B5E20">
+    android:background="#1B5E20"
+    android:fitsSystemWindows="true">
 
     <!-- Icône -->
     <TextView
