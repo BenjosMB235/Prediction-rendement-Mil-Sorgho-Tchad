@@ -1,21 +1,21 @@
 # Prédiction Rendements Mil/Sorgho - Tchad
 
-## 🎯 Objectif
+## &#x20;Objectif
 
 Système de prédiction des rendements du mil et sorgho au Tchad
 utilisant l'imagerie satellite Sentinel-2 et le machine learning.
 
-## 📊 Pourquoi ce projet ?
+## &#x20;Pourquoi ce projet ?
 
 * 80% de la production céréalière tchadienne
 * 165 000 tonnes perdues annuellement faute de planification
 * Solution low-cost pour agriculteurs et coopératives
 
-## 🗺️ Zone pilote
+## &#x20;Zone pilote
 
 3 régions Mandoul, Moyen-Chari et Logone Occidental, Tchad
 
-## 🛠️ Stack technique
+## &#x20;Stack technique
 
 * NASA MODIS MOD13Q1 (télédétection EVI)
 * Google Colab (traitement cloud)
@@ -24,7 +24,7 @@ utilisant l'imagerie satellite Sentinel-2 et le machine learning.
 * TensorFlow Lite (mobile)
 * Android natif Java
 
-## 📈 Status
+## &#x20;Status
 
 * \[x] Setup environnement (Colab + GitHub)
 * \[x] Extraction données satellites (MODIS EVI 2010-2024)
@@ -34,13 +34,13 @@ utilisant l'imagerie satellite Sentinel-2 et le machine learning.
 * \[x] Features : EVI + Pluviométrie CHIRPS
 * \[x] Application Android (inférence TFLite offline)
 
-## 🤝 Partenaires recherchés
+## &#x20;Partenaires recherchés
 
 * Coopératives agricoles (données terrain)
 * Agronomes (validation scientifique)
 * Développeurs mobile (collaboration)
 
-## 📧 Contact
+## &#x20;Contact
 
 \[mbaibenjsos@gmail.com]
 
